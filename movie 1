@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Death Race 2000</title>
+
+    <style>
+        ul {
+            /* padding: 0; */
+        }
+
+        li {
+            /* list-style-type: none; */
+        }
+
+        .boy {
+            /* color: blue; */
+            color: green;
+        }
+
+        .girl {
+            color: red;
+        }
+
+        .circle {
+            list-style-type: circle;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #top-menu {
+            padding: 0;
+            background: #290bb1;
+            text-align: center;
+            position: fixed;
+            width: 90%;
+            top: 0;
+            font-size: 0;
+        }
+
+        #top-menu li {
+            list-style-type: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        #top-menu li a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            border-left: 1px solid gray;
+            display: block;
+        }
+
+        #top-menu li:last-of-type a {
+            border-right: 1px solid gray;
+        }
+
+        #top-menu li a:hover {
+            background: #290bb1;
+        }
+
+        #content {
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="top-menu">
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="index.html">Rebricek filmov</a></li>
+
+    </ul>
+
+    <div id="content">
+        <h1>Death Race 2000</h1>
+        <h2>O filme</h2>
+        <p>
+           Z času na čas, si Rogere Corman odskočí/il od natáčania či produkovania svojích monster filmov a natočí aj niečo "poriadne" . Tento krát sa vrhol na akčnú sci-fi z budúcnosti , ktorú čiastočne skĺbil s komickýmí prvkami a tiež koketoval s hororovým žánrom. Urobiť z Ameriky , "fašistický štát", kde sa cirkev spojila s politikou a všetko je pod nadvládou jedného muža hovoriaceho si ako inak , než Prezident , ktorý rozhoduje aj o tom, kedy sa môže obyčajný občan milovat, bolo dosť odvážne a riskantné ,ale ako sa neskôr ukázalo, vedľa zasa až tak veľa nestupil a film získal celé spektrum fanúšikov. Zošliapneme spojku, otočíme kľúčikom a hurá do ulíc. Svojím nadupaným autom  môžete  zrazt  bez výčitiek svedomia,  úplne každého, kdo se  pripletie pod kolesá. Starí ľudia  a malí spratkovia sú  za nejviac bodov, tak prečo se zbytočne zdržovať predbiehaním zvedavých chlapov, ale tak bodík naviac se vždy hodí. Presne tímto se riadi tento film a už  po prvvých  minútach je nám nachystaná pekná krvavá kúpeľ. Tvorcovia  nám ponúkajú  dosť solidnú snímku, v ktorej  nechýba ani slušná dávka černieho humoru.  Morbídna zábava naberá postupne na obrátkach, ale keďže se nejedná len o kúsok určený milovníkom krvou striekajúcej filmovej produkucie, dočkáme sa teda aj trochu tej nahoty, politiky, povstaleckej ctižiadostivosti a samozrejme  závodnickej rivality. Každý z týchto prvkov tu má určite svoje  miessto a byl určite prínosom. Pekné  herečky sa nehanbili ukázať aj niečo viac , než iba  svoj  herecký talent. Povstalci zas „zručně“ dopomohli navýšiť počet obetí, aj keď nie vždy si viedli zrovna obratne. Najzaujímavejší však boli samotní závodníci. Hľavne však ich pestrofarebné charakteristiky, z ktorých si snáď každý vybere svojho  favorita. 
+        </p>
+        <h2>Herci</h2>
+        <span style="color: blue">David Carradine</span>,
+        <span style="color: blue">Silvester Stallone</span>,
+        <span style="color: blue">Martin Kove</span>,
+        <span style="color: blue">John Landis</span>,
+        <span style="color: blue">Paul Bartel</span>,
+        <span style="color: blue">Charles B.Griffith</span>,
+        <span style="color: blue">Lewis Teague</span>,
+        <span style="color: blue">Fred Grandy</span>,
+        <span style="color: blue">Bill Morey</span>,
+        <span style="color: blue">Don Steele</span>,
+        <span style="color: blue">Stan Ross</span>,
+        <span style="color: blue">Vince Trankina</span>,
+        <span style="color: red">Simone Griffeth</span>,
+        <span style="color: red">Mary Moronov</span>, 
+        <span style="color: red">Roberta Collins</span>, 
+        <span style="color: red">Louisa Moritz</span>, 
+        <span style="color: red">Joyce Jameson</span>, 
+        <span style="color: red">Harriet Medin</span>, 
+        <span style="color: red">Wendy Bartel</span>, 
+        <span style="color: red">Leslie McRay</span>, 
+
+    </div>
+</body>
+
+</html>
