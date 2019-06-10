@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <title>Juraj Šinka</title>
+    <meta charset="utf-8">
+    <meta name="autor" content="Juraj Šinka">
+    <meta name="description" content="rebríček najlepších filmov">
+    <meta name="keywords" content="tabuľka">
+
+    <style>
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            color:black;
+        }
+
+        .my-p {
+            padding-left: 35px;
+        }
+
+        #p2 {
+           background-color:white;
+        }
+
+        .my-p.color-orange {
+            color: orange;
+        }
+
+        .my-p.color-green {
+            color: green;
+        }
+
+        #custom-div-1 {
+            background-color: blueviolet;
+            color: white;
+            border: 5px solid red;
+        }
+
+        table {
+            margin-bottom: 400px;
+            border-collapse: collapse;
+        }
+
+        table td {
+            border: 4px solid black;
+        }
+
+        thead td {
+            color: white;
+            font-weight: 700;
+            background-color: rgb(156, 9, 9);
+            text-align: center;
+        }
+
+        tbody td{
+            column-span: Poradie;
+            text-align: right;
+        }   
+    
+        tbody td {
+            background-color: lightgray;
+        }
+
+        table td {
+            padding: 15px;
+        }
+
+        table .phone {
+            color: red;
+        }
+    </style>
+</head>
+    <a href="index.hmtl"></a> 
+<body>
+    <div style="margin-bottom: 200px;">
+        <header style="background: rgb(136, 125, 233); padding: 20px">header</header>
+        <div>
+            <div style="
+                background: rgb(77, 48, 48);
+                float: left;
+                padding: 0 40px;
+                width: 300px;
+                text-align: centerri;
+            ">
+                <div>left menu</div>
+                <img src="Acbr5MxLi.png"width="192" height="120"/>
+            </div>
+            <div style="background: rgb(74, 143, 139)">content</div>
+        </div>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <td>Poradie</td>
+                <td>Názov filmu</td>
+                <td>Rok vydania</td>
+                <td colspan="1">%</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Vykúpenie  z veznice Shawshank</td>
+                <td>1994</td>
+                <td class="">95,3%</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Forrest Gump</td>
+                <td>1994</td>
+                <td class="">94,5%</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Zelená Míla</td>
+                <td>1999</td>
+                <td class="">92,8%</td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Prelet nad kukučím hniezdom</td>
+                <td>1975</td>
+                <td class="">92,6%</td>
+                
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Schindlerov zoznam</td>
+                <td>1993</td>
+                <td class="">92,4%</td>
+                
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Sedem</td>
+                <td>1995</td>
+                <td class="">92,3%</td>
+                
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Kmotor</td>
+                <td>1972</td>
+                <td class="">91,8%</td>
+                
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Nedotknutelní</td>
+                <td>2011</td>
+                <td class="">91,4%</td>
+                
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Dvanásť rozhnevaných mužov</td>
+                <td>1957</td>
+                <td class="">91,84%</td>
+                
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Pelíšky</td>
+                <td>1999</td>
+                <td class="">91,2%</td>
+                
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Kmotor 2</td>
+                <td>1974</td>
+                <td class="">90,9%</td>
+                
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Terminátor 2 : Deň Zúčtovania</td>
+                <td>1991</td>
+                <td class="">90,7%</td>
+                
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Pulp Fiction: Historky z podsvetia</td>
+                <td>1994</td>
+                <td class="">90,6%</td>
+                
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Vtedy na západe</td>
+                <td>1968</td>
+                <td class="">90,6%</td>
+                
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Mlčanie hajniatok</td>
+                <td>1991</td>
+                <td class="">90,4%</td>
+                
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Pán Prsteňov: Spoločenstvo prsteňa</td>
+                <td>2001</td>
+                <td class="">90,4%</td>
+                
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Pán Prsteňov: Návrat kráľa</td>
+                <td>2003</td>
+                <td class="">90,3%</td>
+                
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Gran Torino</td>
+                <td>2008</td>
+                <td class="">90,3%</td>
+                
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Temný rytier</td>
+                <td>2008</td>
+                <td class="">90,2%</td>
+                
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Matrix</td>
+                <td>1999</td>
+                <td class="">90,1%</td>   
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Top film:Vykúpenie z veznice Shawshank </h1> 
+    <div style="padding-right: 150px">
+            <img src="9988c4fa20faf37b9bac542902fa0f39f70597db.jpg" alt="" title="" width="200px" style="float: left">
+            <span style="float: right"></span>
+        </div>
+        <p>
+                Skvostné, až priamo dokonalé, prevedenie poviedky Stephena Kinga na filmové plátno. Celovečerný debut a hneď jeden z nejlepších filmov histórie. Všetko je tu perfektné  a na najväčšej možnej úrovni kvality. Od nezapomenuteľných hereckých výkonov (pro väčšinu zúčastněných sú to životné výkony), až po réžiu, hudbu, kameru...No proste všetko je to, prosím bez jedinej výnimky. Tu nie je čo kritizovať - je tu presne všetko, tak ako to má byť. Geniálné, dokonalé, nezapomenutelné a emocionálnym zážitkom strhujúce. Také presne je Vykúpenie z veznice Shawshank. 
+        </p>
+    </div>
+
+</body>
+</html>
